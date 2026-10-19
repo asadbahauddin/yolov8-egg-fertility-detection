@@ -1,0 +1,17 @@
+# Dokumen privat (ada di repo privat terpisah)
+Pelaporan FIX/
+TerangTelur_PatenSederhana_DJKI.docx
+Laporan Keuangan.xlsx
+Rancangan anggaran.xlsx
+Komponen yang belum di beli.xlsx
+M.Latif_Kolabnas_2024.LaporanAkhir.pdf
+Isian Substansi Proposal Prototipe.pdf
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Lock file Inventor / Office
+*.lck
+~$*

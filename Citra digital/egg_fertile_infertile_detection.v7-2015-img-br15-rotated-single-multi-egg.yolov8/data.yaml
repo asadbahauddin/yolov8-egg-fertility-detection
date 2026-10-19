@@ -1,0 +1,15 @@
+train: C:/Asad/Kuliah/Penenlitian/pak latif/Citra digital/egg_fertile_infertile_detection.v7-2015-img-br15-rotated-single-multi-egg.yolov8/train/images
+val: C:/Asad/Kuliah/Penenlitian/pak latif/Citra digital/egg_fertile_infertile_detection.v7-2015-img-br15-rotated-single-multi-egg.yolov8/valid/images
+test: C:/Asad/Kuliah/Penenlitian/pak latif/Citra digital/egg_fertile_infertile_detection.v7-2015-img-br15-rotated-single-multi-egg.yolov8/test/images
+
+
+
+nc: 2
+names: ['fertile', 'infertile']
+
+roboflow:
+  workspace: project-kece
+  project: egg_fertile_infertile_detection
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-kece/egg_fertile_infertile_detection/dataset/7
