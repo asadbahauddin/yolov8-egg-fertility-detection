@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🥚 TerangTelur
+# 🥚 YOLOv8-Based Egg Fertility Detection for Automated Candling
 
-### Deteksi fertilitas telur berbasis YOLOv8: candling cerdas untuk Raspberry Pi
+### Deteksi fertilitas telur berbasis YOLOv8 pada perangkat edge (Raspberry Pi)
 
 *Egg fertility detection: is this egg fertile or infertile? Answered in ~35 ms on CPU.*
 
@@ -18,7 +18,7 @@
 
 ---
 
-**TerangTelur** adalah prototipe alat *candling* (peneropongan telur) otomatis. Telur disinari dari bawah, lalu kamera dan model **YOLOv8n** mengklasifikasikan setiap telur di frame sebagai **fertile** (berembrio) atau **infertile**. Proyek ini dikerjakan dalam penelitian bersama **Bapak M. Latif** (Kolabnas) dan mencakup tiga bagian: model AI, desain mekanik (Autodesk Inventor), dan skema elektronik (Fritzing).
+Repositori ini berisi prototipe alat *candling* (peneropongan telur) otomatis. Telur disinari dari bawah, lalu kamera dan model **YOLOv8n** mengklasifikasikan setiap telur di frame sebagai **fertile** (berembrio) atau **infertile**. Proyek ini dikerjakan dalam penelitian bersama **Bapak M. Latif** (Kolabnas) dan mencakup tiga bagian: model AI, desain mekanik (Autodesk Inventor), dan skema elektronik (Fritzing).
 
 <p align="center"><img src="assets/dataset_samples.jpg" alt="Sampel dataset dengan anotasi" width="100%"></p>
 <p align="center"><sub>Sampel dataset training dengan ground-truth bounding box. Hijau = fertile, merah = infertile.</sub></p>
